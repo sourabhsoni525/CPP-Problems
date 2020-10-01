@@ -4,7 +4,7 @@ using namespace std;
 class parent{
     public:
         virtual void show(){
-            cout<<"In Class Parent"<<endl;
+            cout<<"In parent class"<<endl;
         }
 };
 class child:public parent{
